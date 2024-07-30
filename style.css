@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+body{
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.bgm1{
+    width: 0;
+    height: 0;
+}
+.bird1{
+    width: 125px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird1-animation{
+    animation: bird1-move 11s linear 1s ;
+}
+.bird2{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird2-animation{
+    animation: bird1-move 10.5s linear 7s ;
+}
+.bird3{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird3-animation{
+    animation: bird1-move 10s linear 12s ;
+}.bird4{
+    width: 125px;
+    height: 130px;
+    background-image: url(Bird3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird4-animation{
+    animation: bird1-move 9s linear 15s ;
+}
+.bird5{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird5-animation{
+    animation: bird1-move 8.5s linear 19s ;
+}
+.bird6{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird6-animation{
+    animation: bird1-move 8.5s linear 21.5s ;
+}
+.bird7{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird7-animation{
+    animation: bird1-move 8s linear 24s ;
+}
+.bird8{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird8-animation{
+    animation: bird1-move 7.5s linear 27s ;
+}
+.bird9{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird9-animation{
+    animation: bird1-move 8s linear 30s ;
+}
+.bird10{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird10-animation{
+    animation: bird1-move 8s linear 33s ;
+}
+.bird11{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird11-animation{
+    animation: bird1-move 7s linear 37s ;
+}
+.bird12{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird12-animation{
+    animation: bird1-move 7.5s linear 40s ;
+}
+.bird13{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird13-animation{
+    animation: bird1-move 7s linear 43s ;
+}
+.bird14{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird14-animation{
+    animation: bird1-move 6.5s linear 47s ;
+}
+.bird15{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird15-animation{
+    animation: bird1-move 6.5s linear 50s ;
+}
+.bird16{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird16-animation{
+    animation: bird1-move 6.5s linear 53s ;
+}
+.bird17{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird17-animation{
+    animation: bird1-move 6s linear 54s ;
+}
+.bird18{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird18-animation{
+    animation: bird1-move 7s linear 56s ;
+}
+.bird19{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird19-animation{
+    animation: bird1-move 5.5s linear 60s ;
+}
+.bird20{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird20-animation{
+    animation: bird1-move 5.5s linear 63s ;
+}
+.bird21{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird21-animation{
+    animation: bird1-move 5s linear 66s ;
+}
+.bird22{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird22-animation{
+    animation: bird1-move 5s linear 69s ;
+}
+.bird23{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird23-animation{
+    animation: bird1-move 6s linear 71s ;
+}
+.bird24{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird24-animation{
+    animation: bird1-move 5.5s linear 74s ;
+}
+.bird25{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird25-animation{
+    animation: bird1-move 5s linear 78s ;
+}
+.bird26{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird26-animation{
+    animation: bird1-move 5.5s linear 81s ;
+}
+.bird27{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird27-animation{
+    animation: bird1-move 5s linear 85s ;
+}
+.bird28{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird28-animation{
+    animation: bird1-move 4.5s linear 89s ;
+}
+.bird29{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird29-animation{
+    animation: bird1-move 5s linear 92s ;
+}
+.bird30{
+    width: 130px;
+    height: 130px;
+    background-image: url(Bird1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 300px;
+    left: -200px;
+}
+.bird30-animation{
+    animation: bird1-move 4s linear 96s ;
+}
+.startbox{
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    background-color: #FAF9D3;
+    border-radius: 9px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.startbox h1,.startbox p{
+    margin: 20px;
+}
+.Play{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(199, 233, 255);
+    margin: 50px;
+}
+#playtext{
+    font-size: 20px;
+    margin: 0;
+}
+.Play:hover{
+    transform: scale(1.05);
+    transition: 100ms ease-in-out;
+}
+.score100{
+    color: transparent;
+    user-select: none;
+}
+.scoreanimation{
+    animation: score-display 500ms ease-in-out;
+}
+.scorebox{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    background-color: #ebf5ba;
+    width: 250px;
+    height: 150px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scorebox p,.scorebox,span{
+    font-size: 20px;
+}
+.heartbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.heart{
+    width: 42px;
+    height: 40px;
+    margin: 10px;
+    background-image: url(heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.noheart{
+    width: 42px;
+    height: 40px;
+    margin: 10px;
+}
+.gunmanshoot{
+    position: fixed;
+    bottom: 65px;
+    right: -10px;
+    /* background-image: url(gun\ man2.gif); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 0px;
+    width: 0px;
+
+}
+.gunman{
+    position: fixed;
+    bottom: 65px;
+    right: -10px;
+    /* background-image: url(gun\ man2\ still.gif); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 0px;
+    width: 0px;
+}
+/*Animations*/
+@keyframes bird1-move {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 2000px;
+    }
+}
+@keyframes score-display {
+    from{
+        color: rgb(93, 93, 93);
+        font-size: 40px;
+        transform: translateY(-180px);
+    }
+    to{
+        color: transparent;
+        font-size: 80px;
+        transform: translateY(-250px);
+    }
+}
